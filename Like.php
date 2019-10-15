@@ -64,6 +64,11 @@ namespace IdnoPlugins\Like {
          */
         function getTitleFromURL($Url)
         {
+            if ($Url === null) {
+                return '';
+            }
+
+
             $str = \Idno\Core\Webservice::file_get_contents($Url);
             if(strlen($str) > 0){
                 if ($result = preg_match("#<title>(.*?)</title>#siu", $str, $title)) {
