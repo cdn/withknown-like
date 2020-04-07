@@ -1,3 +1,11 @@
+#: ./ContentType.php
+msgid "Bookmark"
+msgstr ""
+
+#: ./ContentType.php
+msgid "Bookmarked pages"
+msgstr ""
+
 #: ./Pages/Callback.php:31
 msgid "URL to page title callback"
 msgstr ""
@@ -67,10 +75,10 @@ msgid "You need to specify a title."
 msgstr ""
 
 #: ./Like.php:197
-msgid "You can\'t bookmark an empty URL."
+msgid "You can't bookmark an empty URL."
 msgstr ""
 
 #: ./Like.php:201
-msgid "That doesn\'t look like a valid URL."
+msgid "That doesn't look like a valid URL."
 msgstr ""
 
